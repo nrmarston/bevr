@@ -1,6 +1,6 @@
 {
 	"name": "bhvr",
-	"version": "0.5.0",
+	"version": "0.5.1",
 	"description": "A monorepo template built with Bun, Hono, Vite, and React",
 	"author": "Steve Simkins",
 	"license": "MIT",
@@ -33,9 +33,9 @@
 	],
 	"devDependencies": {
 		"bun-types": "latest",
-		"turbo": "^2.5.5"
+		"turbo": "^2.6.3"
 	},
 	"peerDependencies": {
-		"typescript": "^5.7.3"
+		"typescript": "^5.8.3"
 	}
 }
