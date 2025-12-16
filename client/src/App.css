@@ -42,7 +42,8 @@
 }
 
 .response {
-  background: #444444;
+  background: #fafafa;
+  color: #0a0a0a;
   border-radius: 15px;
   padding: 2rem;
 }
