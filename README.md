@@ -1,12 +1,12 @@
-# bhvr 🦫
+# bevr 🦫
 
 ![cover](https://cdn.stevedylan.dev/ipfs/bafybeievx27ar5qfqyqyud7kemnb5n2p4rzt2matogi6qttwkpxonqhra4)
 
 A full-stack TypeScript monorepo starter with shared types, using Bun, Elysia, Vite, and React.
 
-## Why bhvr?
+## Why bevr?
 
-While there are plenty of existing app building stacks out there, many of them are either bloated, outdated, or have too much of a vendor lock-in. bhvr is built with the opinion that you should be able to deploy your client or server in any environment while also keeping type safety.
+While there are plenty of existing app building stacks out there, many of them are either bloated, outdated, or have too much of a vendor lock-in. bevr is built with the opinion that you should be able to deploy your client or server in any environment while also keeping type safety.
 
 ## Quickstart
 
@@ -16,10 +16,10 @@ Make sure [bun](https://bun.sh) is installed
 bun --version
 ```
 
-Run the command below to make a new bhvr project
+Run the command below to make a new bevr project
 
 ```bash
-bun create bhvr@latest my-app
+bun create bevr@latest my-app
 ```
 
 Once complete run the dev server
@@ -30,7 +30,7 @@ bun dev
 ```
 
 > [!NOTE]
-> Visit [bhvr.dev](https://bhvr.dev) for the full documentation!
+> Visit [bevr.dev](https://bevr.dev) for the full documentation!
 
 ## Features
 
@@ -58,7 +58,7 @@ bun dev
 
 ### Server
 
-bhvr uses Elysia as a backend API for its ergonomic design, excellent type safety, and high performance. If you have ever used Express or Hono then it might feel familiar. Declaring routes and returning data is easy.
+bevr uses Elysia as a backend API for its ergonomic design, excellent type safety, and high performance. If you have ever used Express or Hono then it might feel familiar. Declaring routes and returning data is easy.
 
 ```
 server
@@ -81,7 +81,7 @@ new Elysia()
   .get(
     "/hello",
     (): ApiResponse => ({
-      message: "Hello BHVR!",
+      message: "Hello BEVR!",
       success: true,
     })
   )
@@ -92,7 +92,7 @@ If you wanted to add a database to Elysia you can do so with a multitude of Type
 
 ### Client
 
-bhvr uses Vite + React Typescript template, which means you can build your frontend just as you would with any other React app. This makes it flexible to add UI components like [shadcn/ui](https://ui.shadcn.com) or routing using [React Router](https://reactrouter.com/start/declarative/installation).
+bevr uses Vite + React Typescript template, which means you can build your frontend just as you would with any other React app. This makes it flexible to add UI components like [shadcn/ui](https://ui.shadcn.com) or routing using [React Router](https://reactrouter.com/start/declarative/installation).
 
 ```
 client
@@ -139,11 +139,11 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://github.com/stevedylandev/bhvr" target="_blank">
+        <a href="https://github.com/nrmarston/bevr" target="_blank">
           <img src={beaver} className="logo" alt="beaver logo" />
         </a>
       </div>
-      <h1>bhvr</h1>
+      <h1>bevr</h1>
       <h2>Bun + Elysia + Vite + React</h2>
       <p>A typesafe fullstack monorepo</p>
       <div className="card">
@@ -195,10 +195,10 @@ import { ApiResponse } from "shared";
 
 ### Quick Start
 
-You can start a new bhvr project using the [CLI](https://github.com/stevedylandev/create-bhvr)
+You can start a new bevr project using the [CLI](https://github.com/nrmarston/create-bevr)
 
 ```bash
-bun create bhvr
+bun create bevr
 ```
 
 ### Installation
@@ -249,17 +249,17 @@ Deplying each piece is very versatile and can be done numerous ways, and explora
 
 **Client**
 
-- [Orbiter](https://bhvr.dev/deployment/client/orbiter)
-- [GitHub Pages](https://bhvr.dev/deployment/client/github-pages)
-- [Netlify](https://bhvr.dev/deployment/client/netlify)
-- [Cloudflare Pages](https://bhvr.dev/deployment/client/cloudflare-pages)
+- [Orbiter](https://bevr.dev/deployment/client/orbiter)
+- [GitHub Pages](https://bevr.dev/deployment/client/github-pages)
+- [Netlify](https://bevr.dev/deployment/client/netlify)
+- [Cloudflare Pages](https://bevr.dev/deployment/client/cloudflare-pages)
 
 **Server**
 
-- [Orbiter](https://bhvr.dev/deployment/server/orbiter)
-- [Cloudflare Worker](https://bhvr.dev/deployment/server/cloudflare-workers)
-- [Bun](https://bhvr.dev/deployment/server/railway)
-- [Node.js](https://bhvr.dev/deployment/server/railway)
+- [Orbiter](https://bevr.dev/deployment/server/orbiter)
+- [Cloudflare Worker](https://bevr.dev/deployment/server/cloudflare-workers)
+- [Bun](https://bevr.dev/deployment/server/railway)
+- [Node.js](https://bevr.dev/deployment/server/railway)
 
 ## Type Sharing
 
@@ -271,7 +271,7 @@ import { ApiResponse } from "shared/types";
 
 ## Learn More
 
-- [bhvr Documentation](https://bhvr.dev)
+- [bevr Documentation](https://bevr.dev)
 - [Bun Documentation](https://bun.sh/docs)
 - [Vite Documentation](https://vitejs.dev/guide/)
 - [React Documentation](https://react.dev/learn)

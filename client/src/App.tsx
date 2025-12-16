@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://github.com/stevedylandev/bhvr" target="_blank">
+        <a href="https://github.com/nrmarston/bevr" target="_blank">
           <img src={beaver} className="logo" alt="beaver logo" />
         </a>
       </div>
@@ -31,7 +31,7 @@ function App() {
       <div className="card">
         <div className="button-container">
           <button onClick={sendRequest}>Call API</button>
-          <a className="docs-link" target="_blank" href="https://bhvr.dev">
+          <a className="docs-link" target="_blank" href="https://bevr.dev">
             Docs
           </a>
         </div>
